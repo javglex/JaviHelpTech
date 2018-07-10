@@ -1,0 +1,251 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 12, 2016, 4:57:49 PM
+    Author     : Xavier
+*/
+
+/*display contents on section of full screen*/
+#wrapper{
+    margin:0 auto; 
+    max-width:70em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:whitesmoke;
+}
+
+body{
+    background-color: #cccccc ;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid black;
+}
+
+#thinhr{
+    padding: .1em;
+    margin: .1em;
+    height:2px;
+    line-height:2px;
+}
+
+/***************************HEADER*******************/
+header, footer {
+    padding: 0;
+    color:  #ffff00;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+header h3 {
+    padding: 0px;
+    margin: 0px;
+}
+header h2{
+    padding: 0px;
+    margin: 0px;
+}
+header img{
+
+    width:80%;
+    height:80%;
+    min-width:350px
+}
+
+/******************NAVIGATION**************************/
+
+nav {
+    padding: 0;
+    background-color:#333333;
+    font-family: "proxima-nova";
+    font-size: 1em;
+    font-weight:bold;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:  auto;
+    background-color: #333333;
+   
+    
+}
+
+nav ul li{
+    float: left;
+}
+   
+nav ul li a {
+    display: block;
+    color: #ffff00;
+    text-align:  center;
+    padding:.75em 1.25em;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #111111;
+
+}
+nav ul li a.current{
+   color:  black;
+   background: #ffff00;
+}
+
+
+/******************************ARTICLE*******************/
+
+article {
+    margin-left: 170em;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+
+/*************************SLIDESHW************/
+section div img.mySlides{
+    border: 1px solid #ddd;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: auto;
+    padding:auto;
+    width: 100%;
+    height:100%;
+
+}
+section div.slideDiv{
+
+    height:20%;
+    width: 100%;
+    max-width:100vw;
+    position:  relative;
+    display:block;
+    padding: auto;
+    margin: 0;
+}
+
+section.slideSec{
+        background-color:black;
+        width:60em;
+        max-height:30em;
+        margin:auto;
+        padding:auto;
+
+}
+
+
+/***********************BODY CONTENT ***************/
+section{
+}
+section.info p{
+    padding-left:1.75em;
+    padding-right:3em;
+    font-size:1.2em;
+
+    
+}
+section.info h3{
+    padding-left:1.0em;
+    margin-left:-.5em;
+    margin-right:-.5em;
+
+    color:  #ffff00;
+    background-color:black;
+    font-weight:bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+section.info h4{
+    padding-left:1em;
+    font-size:1.5em;
+    font-weight:bold;
+    color:#000;
+}
+
+
+/*****************FORM PAGE******************/
+form h5{
+    color:black;
+    margin:0;
+    font-size: 1.5em;
+    font-family: "proxima-nova";
+    
+}
+h2.formTitle{
+    padding-left:2.5em;
+    margin-bottom:2.5em;
+    margin-top:1.0em;
+    color:  #ffff00;
+    background-color:black;
+    font-weight:bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+form{
+    padding-left:5em;
+    
+}
+form input,select {
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+form textarea:focus,input:focus,select:focus {
+    
+    border: 3px solid  #ffff00;
+}
+form textarea {
+    width: 75%;
+    height: 15em;
+    padding: 1.2em 2em;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+
+
+/*************MAP******************/
+#map{
+    padding:auto;
+    margin:auto;
+    width:26em;
+    height:40em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+div.mapTitle h2{
+    padding:auto;
+    text-align: left;
+    padding-left:2.5em;
+    margin-top:1.0em;
+    color:  #ffff00;
+    background-color:black;
+    font-weight:bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+div.mapTitle h3{
+    padding:auto;
+    text-align: center;
+    font-size:1.75em;
+}
+div.mapTitle h4{
+    padding:auto;
+    text-align: center;
+    margin-bottom:1.5em;
+    font-size:1.5em;
+}
